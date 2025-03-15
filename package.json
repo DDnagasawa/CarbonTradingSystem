@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "autoprefixer": "^10.4.20",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "name": "carbontradingsystem",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
