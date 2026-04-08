@@ -1,10 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-      "./src/**/*.{js,jsx,ts,tsx}" // 指定 React 项目的文件路径
-    ],
-    theme: {
-      extend: {}, // 可根据需要自定义主题
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      },
+      colors: {
+        positive: '#00C853',
+        negative: '#FF3B30',
+        brand: '#FF007A',
+      },
     },
-    plugins: [], // 如果需要添加插件，可以在这里配置
-  };
+  },
+  plugins: [],
+}
